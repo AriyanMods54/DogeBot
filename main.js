@@ -51,7 +51,7 @@ fakenomor = '0@s.whatsapp.net'
 const gcrevoke = ["911234567890-1621430788@g.us"]
 prefix = '#'
 shp = '⬡'
-owner = "911234567890@s.whatsapp.net"
+owner = "923555341506@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
@@ -140,7 +140,7 @@ fkontakk = { key: {
     participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '911234567890-1604595598@g.us' } : {})
 },
  message: {
-    "contactMessage":{"displayName":'Xeon',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Xeon;;;\nFN:resku\nitem1.TEL;waid=911234567890:+91 690-9137-213\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+    "contactMessage":{"displayName":'Ariyan',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Xeon;;;\nFN:resku\nitem1.TEL;waid=03555341506:+923555341506\nitem1.X-ABLabel:Mobile\nEND:VCARD"
  }}}
 metdata = await client.groupMetadata(anu.jid)
 if(anu.announce == 'false'){
@@ -204,8 +204,8 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
 			 const bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
                 let v = client.contacts[num] || { notify: num.replace(/@.+/, '') }
                 anu_user = v.vname || v.notify || num.split('@')[0]
-                time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-                time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
+                time_welc = moment.tz('Asia/Karachi').format('DD/MM/YYYY')
+                time_wel = moment.tz('Asia/Karachi').format("hh:mm")
                 teks = `🌿 *Hɪ* @${num.split('@')[0]}\n🌿 *Bɪᴏ* : *${thu.status}*\n🌿 *Mᴇᴍʙᴇʀs : ${memeg}*\n🌿 *Wᴇʟᴄᴏᴍᴇ Tᴏ* \n *${mdata.subject}*\n🌿 *ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*\n 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`
                 welcomeBut = [{buttonId:`getdeskgc`,buttonText:{displayText:'DESCRIPTION'},type:1}, {buttonId:`okeyx`,buttonText:{displayText:'CLICK HERE'},type:1}]
                 welcomeButt = { contentText: ` `, footerText: `${teks}`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
